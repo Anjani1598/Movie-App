@@ -1,0 +1,47 @@
+#login-form-div{
+    width: 25%;
+    height: 450px;
+    /* border: 1px solid; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+#name{
+    margin-top: 40px;
+   
+}
+input{
+    
+    width: 110%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border-color: rgb(249, 232, 232);
+
+}
+h1{
+    /* border: 1px solid; */
+    text-align: center;
+    margin-top: -10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#sub{
+    width: 70%;
+    margin-left: 30px;
+    padding: 5px 30px 10px 30px;
+    background-color: green;
+    color: white;
+    border-radius: 10PX;
+    
+}
+#sub:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}

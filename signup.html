@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+        <!-- <link rel="stylesheet" href="D:\Masai\Unit-3\Coding\Assignments\MOVIE APP I\Async-Prog-Assignment-Template\styles\index.css"> -->
+        <style>
+            #navbar{
+    width: 95%;
+    height: 60px;
+    border: 1px solid;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+#navbar>div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+
+}
+#navbar>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+#navbar>div:nth-child(2)>div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#navbar>div:nth-child(2)>div>div{
+    width: 15%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+            #signup-form-div{
+                width: 25%;
+                height: 450px;
+                /* border: 1px solid; */
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 150px;
+
+            }
+        
+            #name{
+                margin-top: 40px;
+               
+            }
+            input{
+                
+                width: 110%;
+                height: 30px;
+                margin: 10px 0;
+                border-radius: 10px;
+                border-color: rgb(249, 232, 232);
+
+            }
+            h1{
+                /* border: 1px solid; */
+                text-align: center;
+                margin-top: -10px;
+                font-size: 40px;
+                font-weight: bold;
+            }
+            #sub{
+                width: 70%;
+                margin-left: 30px;
+                padding: 5px 30px 10px 30px;
+                background-color: green;
+                color: white;
+                border-radius: 10PX;
+                
+            }
+            #sub:hover{
+                background-color: aliceblue;
+                color: black;
+                cursor: pointer;
+            }
+
+            
+        </style>
+    </head>
+
+    <body>
+        <div id="navbar">
+            <div></div>
+            <div>
+                <div><p></p></div>
+                <div>
+                    <div><a href="index.html"><p>Home</p></a></div>
+                    <div><a href="login.html"><p>Login</p></a></div>
+                    <div><a href="signup.html"><p>Signup</p></a></div>
+                </div>
+               
+            </div>
+
+        </div>
+        
+        <div id="signup-form-div">
+            
+
+            <form>
+                <h1>Signup</h1>
+                <input type="text" placeholder="Enter your Name" required id="name"><br>
+                <input type="number" placeholder="Enter your Contact" required id="contact"><br>
+                <input type="email" placeholder="Enter your Email" required id="email"><br>
+                <input type="password" placeholder="Enter yur password" required id="password"><br>
+                <input type="submit" id="sub">
+
+            </form>
+
+        </div>
+    </body>
+
+</html>
+<script src="./scripts/signup.js">
+    
+    
+</script>

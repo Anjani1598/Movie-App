@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+        <link rel="stylesheet" href="D:\Masai\Unit-3\Coding\Assignments\MOVIE APP I\Async-Prog-Assignment-Template\styles\index.css">
+        <link rel="stylesheet" href="D:\Masai\Unit-3\Coding\Assignments\MOVIE APP I\Async-Prog-Assignment-Template\styles\login.css">
+        <style>
+            #navbar{
+    width: 95%;
+    height: 60px;
+    border: 1px solid;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+#navbar>div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+
+}
+#navbar>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+#navbar>div:nth-child(2)>div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+#navbar>div:nth-child(2)>div>div{
+    width: 15%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+            
+
+            
+        </style>
+    </head>
+
+    <body>
+        <div id="navbar">
+            <div></div>
+            <div>
+                <div><p></p></div>
+                <div>
+                    <div><a href="index.html"><p>Home</p></a></div>
+                    <div><a href="login.html"><p>Login</p></a></div>
+                    <div><a href="signup.html"><p>Signup</p></a></div>
+                </div>
+               
+            </div>
+
+        </div>
+        
+        <div id="login-form-div">
+            
+
+            <form>
+                <h1>Login</h1>
+                <input type="email" placeholder="Enter your Email" id="email"><br>
+                <input type="password" placeholder="Enter yur password" id="password"><br>
+                <input type="submit" id="sub">
+
+            </form>
+
+        </div>
+    </body>
+
+</html>
+<script src="./scripts/login.js">
+    
+</script>
